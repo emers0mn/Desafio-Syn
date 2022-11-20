@@ -1,0 +1,73 @@
+:root {
+    --blue: #8701CF;
+    --orange: #FF7B29;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+
+}
+
+body, h1, h2{
+    padding: 0;
+    margin: 0;    
+}
+
+p {
+    font-size: 30px;
+}
+
+h2.titulos {
+    
+}
+
+img{
+    width: 600px;
+    height: 600px;
+}
+
+.bg-azul {
+    background: var(--blue);
+}
+
+.conteudo-1 {
+    display: flex;
+    padding: 70px 0 50px 70px;
+}
+
+.conteudo-1 p {
+    width: 95vh;
+}
+
+.bg-laranja {
+    background: var(--orange);
+}
+
+.titulos {
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.contato h3 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.contato img {
+    margin: auto;
+}
+
+.form-contato{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin: auto;
+    padding: 20px;
+}
