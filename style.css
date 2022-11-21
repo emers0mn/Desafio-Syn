@@ -174,7 +174,7 @@ article img{
 .bt-enviar {
     width: 90%;
     height: 41px;
-    background: var(--blue);
+    background: #7c08bbd7;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -182,6 +182,10 @@ article img{
     cursor: pointer;
     margin-bottom: 20px;
     
+}
+
+.bt-enviar:hover {
+    background: var(--blue);
 }
 
 /*mobile*/
