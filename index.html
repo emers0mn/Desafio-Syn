@@ -24,13 +24,13 @@
 
 <body>
 
-    <header class="logo bg-azul">
-        <img src="img/Logo.png" alt="No sso logo">
+    <header class="bg-azul">
+        <img src="img/Logo.png" alt="Nosso logo">
     </header>
 
     <main class="conteiner">
         <article>
-            <section class="bg-azul conteudo-1">
+            <section class="conteudo-1">
                 <div>
                     <h1 class="titulos">Chega de esperar o fim do mês!</h1>
                     <p>A Empresa proporciona para seus clientes uma solução inovadora que transforma radicalmente o dia
@@ -40,52 +40,63 @@
                 <img class="img-float" src="img/imagem-01.png" alt="Economize o seu tempo">
             </section>
 
-            <section class="bg-laranja conteudo-1">
+            <section class="conteudo-2">
                 <h2 class="titulos">De básico a folha Empresa não tem nada!</h2>
 
                 <div class="organiza">
                     <p>Nosso padrão de folha é o mais completo
-                        do mercado!
+                        do mercado! <br>
                         Diferente dos outros fornecedores, nossos
                         KPI's, Workflow, Gestão de benefícios e
                         eSocial fazem parte do sistema Folha de
                         Pagamentos Empresa sem custos adicionais!
                     </p>
                     
-                    <img src="img/imagem-02.png" alt="Sua empresa com as contas organizadas">
-                </div>
+                    <img class="saco-de-moeda" src="img/imagem-02.png" alt="Sua empresa com as contas organizadas">
+                </div> 
             </section>
 
             <section class="contato">
                 <div class="bg-azul">
-                    <h3>Quer levar a Empresa para o seu dia a dia?</h3>
-
-                    <img src="img/imagem-04.png" alt="Tenha paz com suas finanças">
+                    <div class="convencer">
+                        <h3>Quer levar a Empresa para o seu dia a dia?</h3>
+                        <img src="img/imagem-04.png" alt="Tenha paz com suas finanças">
+                    </div>
                 </div>
 
                 <div class="bg-laranja">
-                    <h3>Deixa aqui seus dados que entraremos em contato!</h3>
-
-                    <form class="form-contato">
-                        <label for="nomecompleto">Nome Completo</label>
-                        <input type="text" id="nomecompleto">
-
-                        <label for="email">E-mail</label>
-                        <input type="text" id="email">
-
-                        <label for="direcinamento">Onde nos conheceu?</label>
-                        <input type="checkbox" value="bt1">Google</input>
-                        <input type="checkbox" value="bt1">Rede sociais</input>
-                        <input type="checkbox" value="bt1">Indicação</input>
-
-                        <label for="funcionarios"> Quantos de funcionários</label>
-                        <input type="button" id="menos" value="-">
-
-                        <input type="button" id="mais" value="+">
-                        <input type="number" id="total-funcionarios" value="10">
-                        <input type="button" value="Enviar">
-
-                    </form>
+                    <div class="cap-lead">
+                        <h3>Deixa aqui seus dados que entraremos em contato!</h3>
+                        <form class="form-contato">
+                            <div>
+                                <label for="nomecompleto">Nome Completo</label>
+                                <br>
+                                <input type="text" id="nomecompleto" class="caixa-de-texto">
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <br>
+                                <input type="text" id="email" class="caixa-de-texto">
+                            </div>
+                            <label for="direcinamento">Onde nos conheceu?</label>
+                            <div>
+                                <input class="checkbox" type="checkbox" class="checkbox-1" value="bt1" id="google">
+                                <label for="google">Google</label>
+                                <br>
+                                <input type="checkbox" class="checkbox" value="bt2" id="redesocial">
+                                <label for="redesocial">Rede sociais</label>
+                                <br>
+                                <input type="checkbox" class="checkbox" value="bt3" id="indica"><label for="indica">Indicação</label>
+                            </div>
+                            <label for="funcionarios"> Quantos de funcionários</label>
+                            <div class="contador">
+                                <input type="button" id="menos" value="-" class="bt-quantidade">
+                                <input type="text" id="total-funcionarios" value="10" class="quantidade" >
+                                <input type="button" id="mais" value="+" class="bt-quantidade">
+                            </div>
+                            <input type="button" value="Enviar" class="bt-enviar">
+                        </form>
+                    </div>
                 </div>
             </section>
         </article>
